@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      const oldOrg = "govuk-digital-backbone.github.io";
+      const newOrg = "gds-dtx.github.io";
+
+      const target =
+        "https://" +
+        newOrg +
+        window.location.pathname +
+        window.location.search +
+        window.location.hash;
+
+      window.location.replace(target);
+    </script>
+  </head>
+  <body>
+    <p>This site has moved to <a href="https://gds-dtx.github.io/">gds-dtx.github.io</a>.</p>
+  </body>
+</html>
